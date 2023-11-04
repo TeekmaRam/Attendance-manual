@@ -1,9 +1,10 @@
+import '../Img/Calendar.jpg'
 export let Homescreen= [
     {
 id: 1,
 description: "Calender",
 backgroundColor: '#FBEBEE',
-image : 'path',
+ "ImagePath": require('../Img/Calendar.jpg'),
 imageColor: "#fff"
 },
 
@@ -11,7 +12,7 @@ imageColor: "#fff"
     id: 2,
     description: "Attendance",
     backgroundColor: '#EAEBFD',
-    image : 'path',
+    ImagePath : require('../Img/Attendance.jpg'),
     imageColor: "#fff"
     },
 
@@ -19,14 +20,15 @@ imageColor: "#fff"
         id: 3,
         description: "General Insights",
         backgroundColor: '#E7F3C3',
-        image : 'path',
-        imageColor: "#fff"
+        ImagePath: require('../Img/GeneralInsights.jpg'),
+        imageColor: "#fff",
+
         },
      {
             id: 4,
             description: "Annoncements",
             backgroundColor: '#FEE1D1',
-            image : 'path',
+            ImagePath: require('../Img/Annoucement.jpg'),
             imageColor: "#fff"
             },
 
@@ -34,14 +36,14 @@ imageColor: "#fff"
                 id: 5,
                 description: "Message",
                 backgroundColor: '#F1E2F7',
-                image : 'path',
+                ImagePath: require('../Img/Messages.jpg'),
                 imageColor: "#fff"
                 },
                 {
                     id: 6,
                     description: "Entry/Dispersal",
                     backgroundColor: '#FFEBB9',
-                    image : 'path',
+                    ImagePath: require('../Img/Dispersal.jpg'),
                     imageColor: "#fff"
                     }
         
