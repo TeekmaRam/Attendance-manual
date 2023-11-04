@@ -1,3 +1,1 @@
-Initial commit
-# Attendancemanual
-# Attendancemanual
+Initial content
