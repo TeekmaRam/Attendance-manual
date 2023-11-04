@@ -38,7 +38,6 @@ function RenderItem({item, updateAttendence}) {
     let att = item?.attendance;
      setAttendance(item?.attendance);
     let filterDta = att.filter(item=>item.attendanceStatus)
-    console.log("filterDta", filterDta)
     if(filterDta.length > 0){
   
       setSelectedAttendance(filterDta)
@@ -148,7 +147,7 @@ setShowData(false)
         <View style={styles.calenderContainer}>
           {showData ? (
             <CalendarPicker
-              width={450}
+              width={400}
               selectedDayTextColor="#FFFFFF"
               onDateChange={onDateChange}
             />
