@@ -12,7 +12,7 @@ const Stack = createNativeStackNavigator();
 
 function Homenav()  {
 
-//uuuuuuuu
+
   return (
    <Stack.Navigator>
     <Stack.Screen name="Home" component={Home} />
